@@ -1,0 +1,260 @@
+body {
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    align-items: center; 
+    background-color: #071204;
+    padding: 20px;
+    text-align: left;
+}
+
+header img {
+    width: 200px;
+    height: auto;
+    margin-right: 20px; 
+}
+
+header h1 {
+    margin: 0;
+    color: white;
+}
+
+.navegacion a {
+    display: flex;
+    align-items: center; 
+    justify-content: end;
+    color: #18f410;
+    text-decoration: none;
+    font-weight: lighter;
+    transition: text-decoration 0.3s; 
+}
+
+.navegacion a:hover {
+    color: #d2fbd0; /* Subrayado al hacer hover */
+}
+.navegacion {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end; /* Alinea el menú a la derecha */
+}
+
+nav li {
+    margin-left: 20px; /* Agrega un margen izquierdo para separar los elementos del menú */
+}
+
+
+
+section {
+    padding: 2em;
+}
+#home {
+    background-image: url('/images/fondosection2.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    color: #fff; 
+    text-align: center; 
+    padding: 100px 20px; 
+}
+
+#home h2 {
+    font-size: 2.5em; 
+    margin-bottom: 20px; 
+}
+
+#home p {
+    font-size: 1.2em; /* Tamaño del párrafo */
+    max-width: 600px; /* Ancho máximo del párrafo */
+    margin: 0 auto; /* Centra el párrafo */
+}
+
+#productos {
+    padding: 2em;
+}
+
+#productos h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* ... Otro código ... */
+.productos-lista {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap:wrap; /* Para que los elementos se ajusten automáticamente en filas */
+    justify-content: space-around;
+}
+
+.producto {
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    width: 200px; /* Ancho fijo para cada producto */
+}
+
+.producto:hover {
+    background-color: #04A535; /* Color de fondo al hacer hover */
+    color: #fff; /* Color del texto al hacer hover */
+}
+
+.producto img {
+    width: 40%;
+    height: auto;
+    border-radius: 8px; /* Bordes redondeados para la imagen */
+}
+/* ... Otro código ... */
+
+
+img {
+    width: 40%;
+    height: auto;
+    border-radius: 8px; /* Bordes redondeados para la imagen */
+}
+
+/* ... Otro código ... */
+#carrito {
+    background-image: url('/images/fondosection.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px; /* Ajusta el espaciado según sea necesario */
+}
+
+.carrito-lista {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; /* Para que los elementos se ajusten automáticamente en filas */
+    justify-content:space-around;
+    
+}
+
+.carrito-item {
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid rgb(185, 214, 19);
+    background-color: rgb(20, 22, 9);
+    transition: background-color 0.3s;
+    cursor: pointer;
+    width: 400px; /* Ancho fijo para cada elemento del carrito */
+    display: flex;
+    align-items: center;
+}
+
+.carrito-item:hover {
+    background-color: rgb(185, 214, 19); /* Color de fondo al hacer hover */
+    color: #fff; /* Color del texto al hacer hover */
+}
+
+.carrito-item img {
+    width: 40%;
+    height: auto;
+    border-radius: 8px; /* Bordes redondeados para la imagen */
+    margin-right: 20px;
+}
+
+.info-producto {
+    text-align: left;
+}
+
+.boton-comprar {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.boton-comprar:hover {
+    background-color: #45a049;
+}
+
+#pasarela {
+    padding: 2em;
+}
+
+#pasarela h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#formulario-pago {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .productos-lista {
+        justify-content: space-between;
+    }
+
+    .producto {
+        width: calc(50% - 20px); /* Ajusta el ancho según sea necesario para mostrar cuatro elementos en una fila con espacio entre ellos */
+    }
+}

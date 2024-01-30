@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Maker Computer</title>
+   
+</head>
+<body>
+
+    <header>
+        <div class="navegacion">
+            <img src="/images/logo-maker-gris.svg" alt="Logo de Mi Empresa">
+            <nav>
+                <ul id="menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#productos">Lotes de CPU</a></li>
+                    <li><a href="#carrito">Lotes de portatiles</a></li>
+                    <li><a href="#pasarela">Pasarela de Pago</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <h2>Conoce nuestro stock de lotes por categorías</h2>
+        <p>Productos originales de las mejores marcas</p>
+    </section>
+
+    <section id="productos">
+        <h2>Conoce nuestro stock de lotes por categorías</h2>
+        <ul class="productos-lista">
+            <li class="producto">
+                <img src="/images/compu1.png" alt="Computadora 1">
+                <p>Lotes de CPU</p>
+                <p>Core i3</p>
+            </li>
+            <li class="producto">
+                <img src="/images/compu1.png" alt="Computadora 1">
+                <p>Lotes de CPU</p>
+                <p>Core i3</p>
+            </li>
+            <li class="producto">
+                <img src="/images/compu1.png" alt="Computadora 1">
+                <p>Lotes de CPU</p>
+                <p>Core i3</p>
+            </li>
+            <li class="producto">
+                <img src="/images/compu1.png" alt="Computadora 1">
+                <p>Lotes de CPU</p>
+                <p>Core i3</p>
+            </li>
+            <li class="producto">
+                <img src="/images/compu1.png" alt="Computadora 1">
+                <p>Lotes de CPU</p>
+                <p>Core i3</p>
+            </li>
+            <li class="producto">
+                <img src="/images/compu1.png" alt="Computadora 1">
+                <p>Lotes de CPU</p>
+                <p>Core i3</p>
+            </li>
+            <li class="producto">
+                <img src="/images/compu1.png" alt="Computadora 1">
+                <p>Lotes de CPU</p>
+                <p>Core i3</p>
+            </li>
+            <li class="producto">
+                <img src="/images/compu1.png" alt="Computadora 1">
+                <p>Lotes de CPU</p>
+                <p>Core i3</p>
+            </li>
+            <!-- Agrega más productos según sea necesario -->
+        </ul>
+    </section>
+
+    <section id="carrito">
+        <h2>Ofertas que aumentan tu rentabilidad</h2>
+        <ul class="carrito-lista">
+            <li class="carrito-item">
+                <img src="/images/container.png" alt="Producto 1">
+                <div class="info-producto">
+                    <h3>CORE i3 - 6TA GEN</h3>
+                    <p>RAM: 8GB HDD:500GB</p>
+                    <p>$878.000 Unid</p>
+                    <p>62 Unid. Disponibles</p>
+                    <button class="boton-comprar">Comprar</button>
+                </div>
+            </li>
+            <li class="carrito-item">
+                <img src="/images/container.png" alt="Producto 1">
+                <div class="info-producto">
+                    <h3>CORE i3 - 6TA GEN</h3>
+                    <p>RAM: 8GB HDD:500GB</p>
+                    <p>$878.000 Unid</p>
+                    <p>62 Unid. Disponibles</p>
+                    <button class="boton-comprar">Comprar</button>
+                </div>
+            </li>
+            <li class="carrito-item">
+                <img src="/images/container.png" alt="Producto 1">
+                <div class="info-producto">
+                    <h3>CORE i3 - 6TA GEN</h3>
+                    <p>RAM: 8GB HDD:500GB</p>
+                    <p>$878.000 Unid</p>
+                    <p>62 Unid. Disponibles</p>
+                    <button class="boton-comprar">Comprar</button>
+                </div>
+            </li>
+            <li class="carrito-item">
+                <img src="/images/container.png" alt="Producto 1">
+                <div class="info-producto">
+                    <h3>CORE i3 - 6TA GEN</h3>
+                    <p>RAM: 8GB HDD:500GB</p>
+                    <p>$878.000 Unid</p>
+                    <p>62 Unid. Disponibles</p>
+                    <button class="boton-comprar">Comprar</button>
+                </div>
+            </li>
+            <!-- Agrega más productos al carrito según sea necesario -->
+        </ul>
+
+        <section id="pasarela">
+            <h2>Aquí puedes pagar tus productos seleccionados</h2>
+            <form id="formulario-pago">
+                <label for="nombre-tarjeta">Nombre en la tarjeta:</label>
+                <input type="text" id="nombre-tarjeta" required>
+    
+                <label for="numero-tarjeta">Número de tarjeta:</label>
+                <input type="text" id="numero-tarjeta" required>
+    
+                <label for="fecha-expiracion">Fecha de expiración:</label>
+                <input type="text" id="fecha-expiracion" placeholder="MM/AA" required>
+    
+                <label for="codigo-seguridad">Código de seguridad:</label>
+                <input type="text" id="codigo-seguridad" required>
+    
+                <button type="button" onclick="realizarPago()">Realizar Pago</button>
+            </form>
+        </section>
+
+    <footer>
+        <p>&copy; 2024 Diseñado por Deisy Garzón para Make Computer</p>
+    </footer>
+
+    <script>
+        function realizarPago() {
+            // Aquí puedes agregar la lógica para procesar el pago
+            // Por ejemplo, enviar los datos al servidor y recibir una confirmación
+            alert('Pago realizado con éxito. ¡Gracias por tu compra!');
+        }
+    </script>
+
+</body>
+</html>
