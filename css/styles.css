@@ -28,14 +28,15 @@ header h1 {
     display: flex;
     align-items: center; 
     justify-content: end;
-    color: #18f410;
+    
+    color:#d2fbd0;
     text-decoration: none;
     font-weight: lighter;
     transition: text-decoration 0.3s; 
 }
 
 .navegacion a:hover {
-    color: #d2fbd0; /* Subrayado al hacer hover */
+    color: #18f410; /* Subrayado al hacer hover */
 }
 .navegacion {
     display: flex;
