@@ -37,7 +37,7 @@ header h1 {
 }
 
 .navegacion a:hover {
-    color: #18f410; /* Subrayado al hacer hover */
+    color: #18f410;
 }
 .navegacion {
     display: flex;
@@ -48,11 +48,11 @@ header h1 {
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: flex-end; /* Alinea el menú a la derecha */
+    justify-content: flex-end;
 }
 
 nav li {
-    margin-left: 20px; /* Agrega un margen izquierdo para separar los elementos del menú */
+    margin-left: 20px; 
 }
 
 
@@ -75,9 +75,9 @@ section {
 }
 
 #home p {
-    font-size: 1.2em; /* Tamaño del párrafo */
-    max-width: 600px; /* Ancho máximo del párrafo */
-    margin: 0 auto; /* Centra el párrafo */
+    font-size: 1.2em; 
+    max-width: 600px; 
+    margin: 0 auto; 
 }
 
 #productos {
@@ -89,12 +89,12 @@ section {
     margin-bottom: 20px;
 }
 
-/* ... Otro código ... */
+
 .productos-lista {
     list-style: none;
     padding: 0;
     display: flex;
-    flex-wrap:wrap; /* Para que los elementos se ajusten automáticamente en filas */
+    flex-wrap:wrap; 
     justify-content: space-around;
 }
 
@@ -105,43 +105,43 @@ section {
     border: 1px solid #ccc;
     transition: background-color 0.3s;
     cursor: pointer;
-    width: 200px; /* Ancho fijo para cada producto */
+    width: 200px;
 }
 
 .producto:hover {
-    background-color: #04A535; /* Color de fondo al hacer hover */
-    color: #fff; /* Color del texto al hacer hover */
+    background-color: #04A535; 
+    color: #fff; 
 }
 
 .producto img {
     width: 40%;
     height: auto;
-    border-radius: 8px; /* Bordes redondeados para la imagen */
+    border-radius: 8px; 
 }
-/* ... Otro código ... */
+
 
 
 img {
     width: 40%;
     height: auto;
-    border-radius: 8px; /* Bordes redondeados para la imagen */
+    border-radius: 8px; 
 }
 
-/* ... Otro código ... */
+
 #carrito {
-    background-image: url('/images/fondosection.jpg'); /* Ruta de la imagen de fondo */
+    background-image: url('/images/fondosection.jpg'); 
     background-size: cover;
     background-position: center;
     color: #fff;
     text-align: center;
-    padding: 100px 20px; /* Ajusta el espaciado según sea necesario */
+    padding: 100px 20px; 
 }
 
 .carrito-lista {
     list-style: none;
     padding: 0;
     display: flex;
-    flex-wrap: wrap; /* Para que los elementos se ajusten automáticamente en filas */
+    flex-wrap: wrap; 
     justify-content:space-around;
     
 }
@@ -154,20 +154,20 @@ img {
     background-color: rgb(20, 22, 9);
     transition: background-color 0.3s;
     cursor: pointer;
-    width: 400px; /* Ancho fijo para cada elemento del carrito */
+    width: 400px;
     display: flex;
     align-items: center;
 }
 
 .carrito-item:hover {
-    background-color: rgb(185, 214, 19); /* Color de fondo al hacer hover */
-    color: #fff; /* Color del texto al hacer hover */
+    background-color: rgb(185, 214, 19); 
+    color: #fff; 
 }
 
 .carrito-item img {
     width: 40%;
     height: auto;
-    border-radius: 8px; /* Bordes redondeados para la imagen */
+    border-radius: 8px; 
     margin-right: 20px;
 }
 
@@ -256,36 +256,36 @@ footer {
 
 @media screen and (max-width: 900px) {
     header img {
-        width: 150px; /* Reduce el tamaño del logo en pantallas pequeñas */
+        width: 150px;
     }
     .productos-lista {
         justify-content: space-between;
     }
 
     .producto {
-        width: calc(100% - 20px); /* Ajusta el ancho según sea necesario para mostrar cuatro elementos en una fila con espacio entre ellos */
+        width: calc(100% - 20px);
     }
     .carrito-item {
-        width: calc(100% - 20px); /* Ocupa todo el ancho de la pantalla para un solo elemento del carrito */
+        width: calc(100% - 20px); 
     }
 
     nav li {
-        margin-left: 10px; /* Reduce el margen izquierdo para ahorrar espacio */
+        margin-left: 10px; 
     }
 
     .navegacion a {
-        font-size: 14px; /* Ajusta el tamaño del texto del menú */
+        font-size: 14px; 
     }
     
 }
 
 @media screen and (max-width: 570px) {
     nav li {
-        margin-left: 5px; /* Reduce el margen izquierdo para ahorrar espacio */
+        margin-left: 5px; 
     }
 
     .navegacion a {
-        font-size: 10px; /* Ajusta el tamaño del texto del menú */
+        font-size: 10px; 
     }
     
 
